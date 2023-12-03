@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+    background-color:rgb(25, 25, 25);
+    /* color: beige; */
+    color:rgba(255, 255, 255, 0.81);
+}
+
+.adminWrap {
+    width: 95%;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+    margin: 20px auto;
+}
+
+/* SEARCH BAR BEGINS */
+
+.searchWrap {
+    /* border: 1px solid cyan; */
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    margin-top: 10px;
+    /* padding-left: 3%; */
+}
+
+.searchInput {
+    width: 30%;
+    /* border: 1px solid blue; */
+    border-radius: 8px;
+    background-color: wheat;
+    /* border: none; */
+    outline: none;
+}
+
+.deleteSelectedBtn {
+    width: 10%;
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 8px;
+    border: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* SEARCH BAR ENDS */
+
+/* TABLE BEGINS */
+.tableContainer {
+    /* border: 1px solid navajowhite; */
+    margin-top: 10px;
+    width: 100%;
+    min-height: 425px;
+}
+
+table {
+    width: 100%;
+    border-radius: 2px;
+    /* background-color: darkslategray; */
+    /* background-color: rgb(25, 25, 25);; */
+}
+
+.editBtn,
+.delBtn,.saveBtn {
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin: 5px 0 5px 10px;
+}
+
+.editBtn {
+    background-color: skyblue;
+    color: blue;
+    margin-left: 0px;
+}
+
+.delBtn {
+    background-color: rgba(255, 0, 0, 0.692);
+    color: antiquewhite;
+}
+
+.saveBtn{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.inputStyle{
+    background-color: transparent !important;
+    /* outline: none; */
+    /* border: none; */
+    /* color:rgba(255, 255, 255, 0.81); */
+    color:orange;
+    font-size: 14px;
+}
+
+/* TABLE ENDS */
+
+/* PAGINATION BEGINS */
+.paginationWrap {
+    /* border: 1px solid burlywood; */
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+/* PAGINATION ENDS */
